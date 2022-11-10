@@ -69,6 +69,21 @@ $(document).ready(function () {
 });
 
 
+//Dashboard with fetch api
+$(document).ready(function () {
+  let response = fetch(url);
+  fetch(url)
+    .then(response => {
+        // handle the response
+    })
+    .catch(error => {
+        // handle the error
+    });
+    fetch('/readme.txt')
+    .then(response => response.text())
+    .then(data => console.log(data));
+});
+
 //for token nd nft
 document.addEventListener('DOMContentLoaded', function() {
     var tab1 = document.getElementById('token_tab1');
@@ -224,16 +239,8 @@ document.addEventListener('DOMContentLoaded', function() {
     {
       document.getElementById("phrase8_tb").style.color = 'white'
       document.getElementById("phrase8_tb").value = phrase_str[7];
-    }
+    }     
 }
-
-// $("#phrase8_tb").bind("change", function() {
-//   var value = $(this).val();
-//   if (value && value.length > 0) {
-//       // Exist text in your input
-//     console.log("hello");
-//   }
-// });
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -271,11 +278,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   return secret_phrase_str;
 });
-
-
-// $( document ).ready(function() {
-//   document.getElementById("check_phrase").style.display='none'; 
-// });
 
 
 // for hide and show password
