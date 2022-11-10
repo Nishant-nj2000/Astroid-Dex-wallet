@@ -1,0 +1,955 @@
+body{
+    background: #000;
+    font-family: regular;
+   
+    
+}
+
+h1{
+    color: #fff;
+}
+button:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+input:focus {
+    color: white;
+}
+#login_error{
+    color:red;
+    margin-top: -151px;
+    margin-bottom: 109px;
+    margin-left: 24px;
+}
+#signup_error{
+    color:red;
+    margin-bottom:-52px;
+    margin-left: 24px;
+}
+/* start popup code */
+.popup_img img{
+    margin-top:130px;
+}
+/* end popup code */
+.change {
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 40%;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+}
+/*private.html, assets and web3 code*/
+#private img{
+    height: 319px;
+    width: 300px;
+    margin-top: 19px;
+    margin-left: 20px;
+}
+#private .title{
+    margin-top: -9px;
+    text-align: center;
+}
+#private .dot {
+    height: 13px;
+    width: 13px;
+    background-color: #FDBD0A;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 11px;
+    cursor: pointer;
+}
+#private .dot2 {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 11px;
+    cursor: pointer;
+  }
+#private button{
+    height: 55px;
+    width: 315px;
+    border:none;
+    background: #FDBD0A;
+    margin: 50px 12px 50px 15px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+/* code end private assests and web3 */
+
+/* home code start */
+#home .img img{
+    height: 210px;
+    width: 182px;
+    margin-left:97px;
+    margin-top: 20px;
+}
+#home .title{
+    text-align: center;
+}
+#home p{
+    font-size: 15px;
+    font-weight: 700;
+    color:#fff;
+}
+#home h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -19px;
+}
+#home button{
+   
+    height: 139px;
+    width: 315px;
+    font-size: 13px;
+    background: none;
+    margin: 60px 0px 28px 15px;
+    border-color: #fdbd0a;
+    font-weight: 700;
+}
+/* sign_up code start */
+#sign_up h1{
+    padding-top: 130px;
+    text-align: center;
+    color: #FDBD0A;
+}
+input[type=password]{
+
+    height: 60px;
+    width: 315px;
+    background-color:#27292B;
+    margin-top:10px;
+    border: none;
+    border-radius: 7px;
+    margin-left:19px;
+    color: #fff;
+}
+input[type=checkbox]{
+    
+    height: 17px;
+    width: 17px;
+    margin-top: 14px;
+    margin-left: 22px;
+    background-color:#27292B;
+}
+label {
+  
+   font-size: 14px;
+    color: #fff;
+    margin-top: -21px;
+    margin-left: 43px;
+}
+#sign_up .btn{
+    background-color: #FDBD0A;
+    height: 63px;
+    width: 315px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 51px;
+    margin-left: 21px;
+    border-radius: 7px;
+    padding-left: 75px;
+    padding-top: 19px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.btn:hover{
+    padding-left: 0px;
+    padding-right: 40px;
+}
+.btn span{
+    position:absolute;
+    width: 55px;
+    height: 55px;   
+    background-color: #222;
+    border-radius: 7px;
+    left: 5px;
+    top: 4px;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover span{
+    left: calc(100% - 60px);
+
+}
+/* sign_up code end */
+
+
+/*terms.html code */
+.phrase_title h1{
+    
+    text-align: center;
+    color: #FDBD0A;
+    margin-top: 75px;
+}
+.phrase{
+
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 78px;
+}
+.phrase img{
+    height: 28px; 
+    width: 28px;
+    margin-right: 6px;
+}
+/* terms code end*/
+
+/* secret_phrase code */
+#outer
+{
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    display: inline-block;
+   
+}
+.inner button{
+  background:#27292B;
+  color:white;
+   margin-bottom: 10px;
+   height: 35px;
+   border:none;
+   border-radius: 9px;
+   margin-left: 5px;
+}
+#sec_btn a button{
+    background-color:#FDBD0A; 
+    border:none; 
+    height:55px; 
+    width:315px; 
+    border-radius:7px;
+    margin-top: 135px;
+    margin-left: 14px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.phrase_no{
+    background: #222;
+    height: 36px;
+    width: 90px;
+}
+/* secret phrase code end */
+
+
+/* confirm secret phrase code */
+#textbox textarea{
+    height: 170px;
+    width: 330px;
+    margin-left: 25px;
+    background-color: #27292B;
+    border: none;
+    margin-bottom: 30px;
+}
+#confirm_secret_phrase div.wrapper{
+  
+    height: 172px;
+    width: 329px;
+    margin-left: 5px;
+    background-color: #27292B;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+#confirm_secret_phrase input[type="text"]{
+    background: #27292B;
+    color: #fff;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 70px;
+   cursor:context-menu;
+}
+#confirm_secret_phrase input[type="text"]:focus{
+    outline:none;
+    
+}
+#confirm_btn a button{
+    background-color:#FDBD0A; 
+    border:none; 
+    height:55px; 
+    width:315px; 
+    border-radius:7px;
+    margin-left: 14px;
+    font-size: 17px;
+    font-weight: 700;
+}
+/* confirm code end */
+
+/* wallet created code */
+.created_logo img{
+    margin-top:157px;
+    margin-left:93px;
+}
+.wallet button{
+    color:#FDBD0A; 
+    border:1px solid #FDBD0A; 
+    height:55px; 
+    width:315px; 
+    border-radius:7px;
+    margin-top: 159px;
+    margin-bottom: 20px;
+    margin-left:14px;
+    font-size: 17px;
+    font-weight: 700;
+    background: none;
+}
+/* wallet created code  end*/
+
+
+/* dashboard code start */
+.dash_clr{
+    height: 196px;
+    width: 375px;
+    background: #181817;
+    border-radius: 12px;
+}
+.dash_title p{
+    margin-top: 27px;
+    margin-left: 44px;
+    float: left;
+    color: #fff;
+    font-family: regular;
+}
+.dash_title h5{
+    float: left;
+    margin-top: 54px;
+    margin-left: -64px;
+    font-size: 16px;
+    color: #fff;
+    font-family: regular;
+}
+.dash_img{
+    float: right;
+    margin-top: 28px;
+    margin-right: 21px;
+}
+.dash_img img{
+    padding-right: 10px;
+    padding-bottom: 18px;
+    position: relative;
+}
+.dash_img a{
+
+    text-decoration: none;
+    color:#fff;
+}
+.dash_img a:hover{
+    color: #fff;
+}
+.trans  {
+    
+    display: flex;
+    padding-top: 90px;
+}
+.trans p{
+    color: #fff;
+    margin-left: -68px;
+    margin-right: 55px;
+    background: #bbb;
+    border-radius: 12px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 12px;
+}
+.trans img{
+    height: 15px;
+    width: 12px;
+    margin-left: 80px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.trans a{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+.receive{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #FDBD0A;
+    background-color: #FDBD0A;
+    border-radius: 23px;
+    margin-right: 40px;
+    margin-left: -47px;
+    padding: 13px;
+}
+ .buy {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #FDBD0A;
+    background-color: #FDBD0A;
+    border-radius: 23px;
+    margin-right: 40px;
+    padding: 13px;
+}
+ .send{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #FDBD0A;
+    background-color: #FDBD0A;
+    border-radius: 23px;
+    margin-right: 40px;
+    padding: 13px;
+}
+.swap{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #FDBD0A;
+    background-color: #FDBD0A;
+    border-radius: 23px;
+    margin-right: 40px;
+    padding: 13px;
+}
+.text{
+    margin-left: -23px;
+}
+.text a{
+    text-decoration: none;
+    
+    padding-left: 53px;
+    color: #fff;
+    font-size: 14px;
+}
+.text a:hover{
+    color: #fff;
+}
+.tab{
+    display: flex;
+    margin-top: 27px;
+    margin-left: 2px;
+    margin-bottom: 44px;
+    background: #181817;
+    height: 54px;
+    width: 355px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 0 7px 17px -6px #fdbd0a;
+}
+.tab button{
+    background: none;
+    border: none;
+    font-size: 14px;
+    margin-left: 41px;
+    
+}
+.tab .active{
+    border-bottom: 3px solid #FDBD0A;
+   
+}
+.tab button:hover{
+    border-bottom:3px solid #fdbd0a;
+    cursor: pointer;
+}
+
+.tabcontent h4{
+    font-size: 14px;
+    color: #fff;
+    font-family: regular;
+}
+.tabcontent h6{
+    font-size: 12px;
+    opacity: 30%;
+    color: #fff;
+   
+}
+.coin{
+    border-bottom: 1px solid;
+    padding-left: 51px;
+    margin-bottom: 30px;
+    
+}
+.right{
+    margin-top: -48px;
+    margin-left: 200px;
+}
+
+.add_token a button{
+    background-color: transparent;
+    border-color: #FDBD0A;
+    height: 60px;
+    width: 193;
+    border-radius: 7px;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    margin-left: 89px;
+    padding-left: 48px;
+    font-size: 14;
+    position: relative;
+    color: #FDBD0A;
+    box-shadow: 0 0 8px #fdbd0a;
+}
+.add_token span{
+    position: absolute;
+    width: 49px;
+    height: 45px;
+    background-color: #FDBD0A;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 96px;
+    margin-top: -72px;
+}
+/* dashboard code end */
+
+
+/* add token list code start */
+.token_title{
+    display: flex;
+    padding-top: 77px;
+    margin-left: 27px;
+  
+}
+.token_title img{
+    margin-right: 92px;
+}
+.token_title p{
+    margin-top: -5px;
+    font-size: 16px;
+    text-align: center;
+    color:#fff;
+    
+}
+input[type=text]{
+
+    height: 60px;
+    width: 330px;
+    background-color:#181817;
+    margin-top:10px;
+    border: none;
+    border-radius: 7px;
+    margin-left: 15px;
+}
+input[type=text]:focus{
+    background-color:#181817;
+}
+.token_form a{
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #FDBD0A;
+    margin-left: 20px;
+}
+.token_form a:hover{
+    color:#FDBD0A;
+}
+.add_btn button{
+    height: 55px;
+    width: 315px;
+    background-color: #FDBD0A;
+    border: none;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 4px;
+}
+/* add token list code end */
+
+/* Receive Token code */
+.receive_title{
+    display: flex;
+    padding-top: 123px;
+    border-bottom: 1px solid;
+    width: 101%;
+}
+.receive_title h5{
+    padding-right: 93px;
+    margin-top: -46px;
+    color: #fff;
+}
+.receive_content{
+    margin-top: 40px;
+    font-size:14px;
+}
+.receive_content a{
+    text-decoration: none;
+    color:#fff;
+   
+}
+.receive_content a:hover{
+   color:#fff;
+}
+.receive_coin p{
+    margin-right: 93px;
+    color:#fff;
+}
+.receive_content .receive_coin{
+    display: flex;
+    margin-left: 34px;
+    margin-bottom: 23px;
+    border-bottom: 1px solid;
+}
+.receive_coin h6{
+    font-size: 14px;
+    margin-left: 115px;
+}
+/* receive eth code */
+.eth_rect{
+    height: 44px;
+    width: 121px;
+    background-color: #fff;
+    border: 2px solid #707070;
+    border-radius: 19px;
+    margin-top: 26px;
+    margin-left: 131px;
+}
+.eth_rect p{
+    padding-top: 11px;
+    font-size: 12px;
+    padding-left: 27px;
+}
+/* dashboard setting code */
+.setting_title{
+    display: flex;
+    padding-top: 70px;
+    padding-left: 24px;
+    border-bottom: 1px solid;
+    width: 101%;
+}
+.setting_title h5{
+    padding-right: 123px;
+    margin-top: -7px;
+    color: #fff;
+    
+} 
+.add_wallet a{
+    text-decoration: none;
+    color: #FDBD0A;
+    font-size: 12px;
+    padding-left: 50px;
+   
+}
+.add_wallet a:hover{
+    color: #FDBD0A;
+}
+.add_wallet p{
+    padding-left: 32px;
+    margin-top: -20px;
+    color: #FDBD0A;
+}
+
+.wallet_1{
+    margin-top: 30px;
+    border-bottom: 1px solid;
+}
+.wallet_img{
+   display: flex;
+   padding-left: 20px;
+   font-size: 14px;
+   color:#fff;
+}
+.wallet_img img{
+    padding-right: 20px;
+}
+
+.dark_mode{
+    display:flex;
+    padding-left: 20px;
+    margin-bottom:21px;
+    border-bottom: 1px solid;
+    
+}
+.dark_mode img{
+    padding-right: 20px;
+    margin-top: -11px;
+}
+.dark_mode p{
+    font-size: 14px;
+    color:#fff;
+}
+#toggle_button input{
+    display:none;
+}
+#toggle_button label{
+    position:relative;
+    display:block;
+    height:20px;
+    width:32px;
+    background:#bbb;
+    border-radius:19px;
+    cursor:pointer;
+    transition: 300ms linear;
+}
+#toggle_button label::before{
+    position:absolute;
+    display:block;
+    content:"";
+    width:14px;
+    height:14px;
+    background: #000;
+    border-radius: 50px;
+    top:3px;
+    left: 3px;
+    transition: left 300ms linear;
+}
+#toggle_button input:checked + label{
+	background-color:#FDBD0A;
+}
+#toggle_button input:checked + label:before{
+    left:15px;
+}
+
+
+
+select {
+    appearance:none;
+    outline:0;
+    box-shadow:none;
+    border:0!important;
+    background: #000;
+    flex:1;
+    color:#fff;
+    cursor:pointer;
+    font-size: 1em;
+  
+ }
+ 
+ .select {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    line-height: 3;
+    background:#000;
+    padding-left: 24px;
+    overflow: hidden;
+    border-radius: .25em;
+    margin-left: 74px;
+    margin-top: -14px;
+ }
+ .select::after {
+    content: '\0FE40';
+    margin-top: 6px;
+    color:#bbb;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #000;
+    cursor:pointer;
+    pointer-events:none;
+    transition:.25s all ease;
+ }
+ .select:hover::after {
+    color: #FDBD0A;
+ }
+/* setting code end */ 
+/* wallet1 code */
+.wallet1_title{
+    display: flex;
+    padding-top: 93px;
+    width: 101%;
+}
+.wallet1_title h5{
+    margin: -7px 37px 0px -69px;;
+    color:#fff;
+}
+#border{
+ border-bottom: 1px solid ;
+}
+.wallet_content{
+    margin-top:20px;
+}
+.wallet_balance{
+    display: flex;
+    margin-top: 21px;
+    padding-left: 18px;
+    margin-bottom: 21px;
+    border-bottom: 1px solid;
+}
+.wallet_balance img{
+    padding-right: 16px;
+    margin-top: -14px;
+}
+.wallet_balance p {
+    font-size: 14px;
+    color:#fff;
+    margin-right: -17px;
+}
+
+/* delete wallet code*/
+.box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-clip: padding-box;
+    text-align: center;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.popup {
+    margin-top: 298px;
+    margin-left:28px;
+    padding: 20px;
+    background: #181817;
+    border-radius: 9px;
+    width: 300px;
+    height:150px;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+.content{
+  text-align:center; 
+  margin-top:20px; 
+  color: #fff;
+}
+/* a{
+    font-size:18px;
+    color:#bbb;
+    text-decoration:none;
+} */
+.cancel_button button{
+    height: 45px;
+    width: 162px;
+    margin-top: 15px;
+    margin-left: -20px;
+    position: relative;
+    border: none;
+    background: #181817;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+/* transaction code */
+.trans_title{
+    display: flex;
+    padding-top: 93px;
+    width: 101%;
+    margin-bottom: 18px;
+}
+.trans_title h5{
+    margin: -7px 37px 0px -69px;
+    color:#fff;
+} 
+
+.trans_content h4{
+    font-size: 14px;
+    color: #fff;
+    font-family: regular;
+    margin-top: -25px;
+    margin-left: 16px;
+}
+.trans_content h6{
+    font-size: 12px;
+    color: #AEB8C4;
+    margin-left: 15px;
+    margin-top: -11px;
+}
+.receive_left img{
+    height: 25px;
+    width: 25px;
+    background: #1EC070;
+    border-radius: 50px;
+    padding: 3px;
+    margin-top: 40px;
+    margin-left: -20px;
+}
+
+.receive_left{
+    border-top: 1px solid;
+    padding-left: 51px;
+    border-bottom: 1px solid;
+}
+.receive_right{
+    margin-top: -30px;
+    margin-left: 188px;
+    margin-bottom: 40px;
+}
+
+.send_left img{
+    height: 25px;
+    width: 25px;
+    background: #FDBD0A;
+    border-radius: 50px;
+    padding: 3px;
+    margin-top: 40px;
+    margin-left: -20px;
+}
+.send_left{
+   
+    padding-left: 51px;
+
+}
+.send_right{
+    margin-top: -30px;
+    margin-left: 188px;
+    margin-bottom: 40px;
+}
+.buy_left img{
+    height: 25px;
+    width: 25px;
+    background: #7700FF;
+    border-radius: 50px;
+    padding: 3px;
+    margin-top: -2px;
+    margin-left: -20px;
+}
+.buy_left{
+   
+    padding-left: 51px;
+
+}
+.buy_right{
+    margin-top: -30px;
+    margin-left: 188px;
+    margin-bottom: 40px;
+}
+.swap_left img{
+    height: 25px;
+    width: 25px;
+    background: #AF9034;
+    border-radius: 50px;
+    padding: 3px;
+    margin-top: -2px;
+    margin-left: -20px;
+}
+.swap_left{
+    border-bottom: 1px solid;
+    padding-left: 51px;
+
+}
+.swap_right{
+    margin-top: -30px;
+    margin-left: 188px;
+    margin-bottom: 40px;
+   
+}

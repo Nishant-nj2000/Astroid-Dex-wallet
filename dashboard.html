@@ -1,0 +1,103 @@
+<html style="height:600px;width:357px;overflow:hidden;">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link  rel="stylesheet" href="style.css">
+        <!-- CSS only-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body style="background: #000;">
+        <div id="dashboard">
+            <div class="dash_clr">
+                <div class="dash_title">
+                    <p>Account1</p>
+                    <h5>$12.58</h5>
+                </div>
+                <div class="dash_img">
+                    <a href="#"><img src="img/icons8-notification-24.png"></a>
+                    <a href="setting.html"><img src="img/icons8-settings-24.png"></a><br>
+                </div>
+                <div class="trans">
+                    <p style="color: #fff;"> 0x563e...CF4B</p>
+                    <a href="transaction.html"><img src="img/icons8-up-and-down-24.png"></a>
+                    <a href="transaction.html" style="color:#fff;">Transaction</a>
+                </div>
+              <!--style="padding-top: 67px; margin-left: -69px; color:#fff;"-->
+            </div>
+                <div style="display: flex; margin-top:-31px; margin-left: 76px; ">
+                    <div class="receive"><a href="receive_token.html"><img src="img/11.3_Dashnoard_Receive.svg"></a></div>
+                    <div class="buy"><a href="buy_token.html"><img src="img/11.4_Dashnoard_Buy.svg"  style="margin: 2px -1px;"></a></div>
+                    <div class="send"><a href="send_token.html"><img src="img/11.5_Dashnoard_Send.svg"></a></div>
+                    <div class="swap"> <a href="swap_token.html"><img src="img/11.6_Dashnoard_Swap.svg" style="margin: 2px 1px;"></a></div>
+                </div>
+            <div class="text">
+                <a href="receive_token.html">Receive</a>
+                <a href="buy_token.html">Buy</a>
+                <a href="send_token.html">Send</a>
+                <a href="swap_token.html">Swap</a>
+            </div>
+
+            <div class="tab">
+                <button class="tablinks active" type="button" id="token_tab1" style="margin-right:129px; color: #fff;">Token</button>
+                <button class="tablinks" type="button" id="nft_tab2" style="color: #fff;">NFT</button>
+                <!-- <button class="tablinks" id="tab1" onclick="openCity(event, 'eth')" style="background:none; color:black;">Assets</button>
+                <button class="tablinks" id="tab2" onclick="openCity(event, 'transcation')" style="background:none; color:black;">Activity</button> -->
+            </div>
+            <div id="token" class="tabcontent">
+                
+                <div class="coin">
+                    <a href="#" style="text-decoration: none;"><h4>Bitcoin</h4></a>
+                    <a href="#" style="text-decoration: none;"><h6>$52.345</h6></a>
+                    <div class="right">
+                        <a href="#" style="text-decoration: none;"><h4>2.345 BTC</h4></a>
+                        <a href="#" style="text-decoration: none;"><h6>$128.345.23</h6></a>
+                    </div>  
+                </div>
+                <div class="coin">
+                    <h4>Ethereum</h4>
+                    <h6>$52.345</h6>
+                    <div class="right">
+                        <h4>1.2ETH</h4>
+                        <h6>$8.214.21</h6>
+                    </div>
+                </div>
+                <div class="coin">
+                    <h4>Ripple</h4>
+                    <h6>$52.345</h6>
+                    <div class="right">
+                        <h4>1.2XRP</h4>
+                        <h6>$8.214.21</h6>
+                    </div>
+                </div>
+                <div class="coin">
+                    <h4>Cardano</h4>
+                    <h6>$52.345</h6>
+                    <div class="right">
+                        <h4>1.2XRP</h4>
+                        <h6>$8.214.21</h6>
+                    </div>
+                </div>
+                <div class="coin">
+                    <h4>Polygon</h4>
+                    <h6>$52.345</h6>
+                    <div class="right">
+                        <h4>1.2MATIC</h4>
+                        <h6>$8.214.21</h6>
+                    </div>
+                </div>
+               
+            </div>
+            <div id="nft" class="tabcontent">
+                <p style="text-align:center; margin-top:32px;">next phase in process</p> 
+            </div>
+
+            <div class="add_token">
+                <a href="add_token.html" ><button class="token_btn">Add token to list</button><span><img src="img/11.7_Dashnoard_Plus.svg"></span></a>
+            </div>
+        </div>
+        
+        <!--js file-->
+        <script src="jquery-3.6.1.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+    
+</html>

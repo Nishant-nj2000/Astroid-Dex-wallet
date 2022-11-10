@@ -1,0 +1,65 @@
+<html style="height:603px;width:357px;overflow:hidden;">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link  rel="stylesheet" href="style.css">
+        <!-- CSS only-->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body style="background: #000;">
+        <div class="wallet1_title">
+            <a href="setting.html" style="padding-right:124px; padding-left: 18px;"><img src="img/5_Back.svg" alt="back_arrow"></a>
+            <h5>Wallet Information</h5>
+            <a href="#popup1"><img src="img/icons8-delete-16.png" style="height:22px; width:22px; margin-top: -6px;"></a>
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <div class="content">
+                        Are you sure you want to delete <br><span style="color:#FDBD0A; margin-left:12px;">Default Wallet 1?</span>
+                    </div>
+                    <div class="cancel_button">
+                      <a href="#"><button type="submit" style="color: #fff;">Cancel</button></a>
+                      <a href="#"><button type="submit" style="color: #D30E2A;margin-top:-44px; margin-left: 112px;">Delete</button></a>
+                    </div>
+              </div>
+            </div>
+        </div>
+        <form>
+            <input type="text" id="eth" name="eth" placeholder="Default Wallet 1" style="height:65px; width:330px;margin: 44px 0px 12px 13px;">
+        </form>
+        <div id="border"></div>
+        <div class="wallet_content">
+            <div class="wallet_balance">
+                <img src="img/12.7_About.svg">
+                <p>No of currencies added with balance</p>
+                <form id="toggle_button">
+                    <div class="dark_img" style="margin-top: 23px;">
+                        <input type="checkbox" id="toggle-btn-1">
+                    <label for="toggle-btn-1" ></label>
+                    </div> 
+                </form> 
+            </div>
+            <div class="wallet_balance">
+                <img src="img/14.1_Wallet_Information_View.svg">
+                <p>View secret phrase</p>
+                <div class="dark_img" >
+                    <a href="#"><img src="img/icons8-forward-24.png" style="margin-top: 0px;margin-left: 145px;;"></a>
+                   </div>
+            </div>
+            <div class="wallet_balance">
+                <img src="img/14.2_Wallet_Information_Send.svg">
+                <p>Send</p>
+            </div>
+            <div class="wallet_balance">
+                <img src="img/14.3_Wallet_Information_Key.svg" style="margin-top: -20px;">
+                <p>Private Key</p>
+                <div class="dark_img" style="padding-top: 23px;margin-left: 162px;margin-top: -25px;">
+                    <a href="#" style="color:#FDBD0A; text-decoration: none; font-size: 12px;">Download</a>  
+                </div> 
+            </div>
+            </div>
+      
+            <!--js file-->
+        <script src="jquery-3.6.1.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+   
+</html>

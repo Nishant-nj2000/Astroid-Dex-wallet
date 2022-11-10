@@ -1,0 +1,50 @@
+<html style="height:600px;width:357px;overflow:hidden;">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link  rel="stylesheet" href="style.css">
+    </head>
+    <body id="confirm_secret_phrase" style="background: #000;">
+        <div>
+            <div class="phrase_title">
+                <h1>Confirm secret phrase</h1><br>
+            </div>
+            <p style="color: #A5A5A5; font-size: 14px; text-align: center; margin-top:-29px;">Please select right sequence of phrase</p>
+            <form id="confirm_phrase" name="confirm_phrase">
+                <div class="wrapper">
+                    <div class="wrapper-inner">
+                        <input type='text' id='phrase1_tb' name='phrase1' readonly required/>  
+                        <input type='text' id='phrase2_tb' name='phrase2' readonly required/>  
+                        <input type='text' id='phrase3_tb' name='phrase3' readonly required/>  
+                        <input type='text' id='phrase4_tb' name='phrase4' readonly required/>  
+                        <input type='text' id='phrase5_tb' name='phrase5' readonly required/>  
+                        <input type='text' id='phrase6_tb' name='phrase6' readonly required/>  
+                        <input type='text' id='phrase7_tb' name='phrase7' readonly required/>  
+                        <input type='text' id='phrase8_tb' name='phrase8' readonly required/>   
+                    </div>
+                </div>
+                
+                <p style="color: #A5A5A5; font-size: 14px; text-align: center; margin-top: 20px;">Confirm the sequence of phrase</p>
+                <div id="outer">
+                    <div class="inner">
+                        <button type="button" id="phrase1" value="pallas" required><span class=phrase_no> 8 </span>pallas</button>
+                        <button type="button" id="phrase2" value="Hathor"><span class=phrase_no> 4 </span>Hathor</button>
+                        <button type="button" id="phrase3" value="Eros"><span class=phrase_no> 2 </span>Eros</button><br>
+                        <button type="button" id="phrase4" value="Hermes"><span class=phrase_no> 5 </span>Hermes</button>
+                        <button type="button" id="phrase5" value="Icarusz"><span class=phrase_no> 7 </span>Icarusz</button>
+                        <button type="button" id="phrase6" value="Geographos"><span class=phrase_no> 3 </span>Geographos</button><br>
+                        <button type="button" id="phrase7" value="Icarus"><span class=phrase_no> 6 </span>Icarus</button>
+                        <button type="button" id="phrase8" value="Ceres"><span class=phrase_no> 1 </span>Ceres</button>
+                    </div>
+                </div>
+               
+            </form>   
+        
+             <div id="confirm_btn">
+                <a href="wallet_created.html"><button type="button" id="check_phrase" class="continue" disabled>CONTINUE</button></a>
+            </div>
+        </div>
+            <!--js file-->
+            <script src="jquery-3.6.1.min.js"></script>
+            <script src="index.js"></script>
+    </body>
+</html>

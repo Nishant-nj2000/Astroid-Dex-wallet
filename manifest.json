@@ -1,0 +1,29 @@
+{
+    "name": "Astroid" ,
+    "description": "An Astroid Wallet in your Browser",
+    "version": "1.0",
+    "manifest_version": 3,
+    "host_permissions": ["http://192.168.0.122:8000/*"],
+    
+      "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'; frame-ancestors 'none';"
+      },
+      "content_scripts": [
+        {
+          "matches": ["*://*/*"],
+          "css": [],
+          "js": ["jquery-3.6.1.min.js"]
+        }
+      ],
+     "action":{           
+
+        "default_popup": "popup.html",
+        "default_icon": "img/1_Logo.svg"
+        
+
+     }
+
+     
+     
+
+}

@@ -1,0 +1,109 @@
+<html style="height:600px;width:357px;overflow:hidden;">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link  rel="stylesheet" href="style.css">
+        <!-- CSS only-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body style="background:#000 ;">
+        <div class="setting_title">
+            <a href="dashboard.html" style="padding-right: 123px;"><img src="img/5_Back.svg" alt="back_arrow"></a>
+            <h5>Setting</h5>
+        </div>
+        <div class="wallet_1">
+            <div class="wallet_img">
+                <img src="img/13.1_Profile_1.svg" alt="default wallet">
+                <p>Default Wallet 1</p>
+                <a href="wallet_1_info.html"><img src="img/icons8-forward-24.png" style="margin-left:136px;"></a>
+            </div>
+            <p style="padding-left: 79px;font-size:12px; margin-top:-16px; color:#fff; opacity:50%;">0x563e...CF4B</p>
+            
+            <div class="wallet_img">
+                <img src="img/13.1_Profile_2.svg" alt="default wallet">
+                <p>Default Wallet 2</p>
+                <a href="#"><img src="img/icons8-forward-24.png" style="margin-left:136px;"></a>
+            </div>
+            <p style="padding-left: 79px;font-size:12px; margin-top:-16px; color:#fff; opacity:50%;">0x563e...CF4B</p>
+            <div class="add_wallet">
+                <a href="#"><p>+Add New Wallet</p></a>
+            </div>
+        </div>
+            <div class="receive_content" style="margin-top:20px ;">
+                <div class="dark_mode">
+                    <img src="img/12.1_Dark_Mode.svg">
+                    <p>Dark Mode</p>
+                    <form id="toggle_button">
+                        <div class="dark_img" style="margin-top:21px;margin-left:132px;">
+                            <input type="checkbox" id="toggle-btn-1">
+                            <label for="toggle-btn-1" ></label>
+                        </div> 
+                    </form> 
+                </div>
+                <div class="dark_mode">
+                    <img src="img/12.2_Password.svg">
+                    <p>Change Password</p>
+                        <div class="dark_img" >
+                        <a href="#"><img src="img/icons8-forward-24.png" style="margin-top:-2px; margin-left:136px;"></a>
+                        </div>
+                </div>
+                <div class="dark_mode">
+                    <img src="img/12.3_Autolock.svg">
+                    <p>Auto lock</p>
+                        <div class="dark_img">
+                            <div class="select">
+                                <select name="format" id="format">
+                                   <option value="pdf">Immediate</option>
+                                   <option value="txt">1 Min</option>
+                                   <option value="epub">5 Min</option>
+                                   <option value="fb2">1 Hour</option>
+                                   <option value="mobi">Never</option>
+                                </select>
+                             </div>
+                        </div>
+                </div>
+                <div class="dark_mode">
+                    <img src="img/12.4_Biometric.svg">
+                    <p>Biomatric lock</p>
+                    <form id="toggle_button">
+                    <div class="dark_img" style="margin-top: 23px;margin-left: 112px;">
+                        <input type="checkbox" id="toggle-btn-2">
+                       <label for="toggle-btn-2" ></label>
+                    </div> 
+                    </form>
+                </div>
+                <div class="dark_mode">
+                    <img src="img/yellow_notification.png" style="height: 29px;width: 36px; margin-top: -4px;">
+                    <p>Push Notification</p>
+                    <form id="toggle_button">
+                    <div class="dark_img" style="margin-top: 23px;margin-left: 96px;">
+                        <input type="checkbox" id="toggle-btn-3">
+                       <label for="toggle-btn-3" ></label>
+                    </div> 
+                    </form>
+                </div>
+                <div class="dark_mode">
+                    <img src="img/12.6_Hide_Token.svg">
+                    <p>Hide token without balance</p>
+                    <form id="toggle_button">
+                    <div class="dark_img" style="margin-top: 23px;margin-left: 27px;">
+                        <input type="checkbox" id="toggle-btn-4">
+                       <label for="toggle-btn-4" ></label>
+                    </div>  
+                    </form>
+                </div>
+                <div class="dark_mode">
+                    <img src="img/12.7_About.svg">
+                    <p style="margin-left: 6px;">About</p>
+                        <div class="dark_img">
+                            <a href="#"><img src="img/icons8-forward-24.png" style="margin-top:-2px; margin-left:200px;"></a>
+                        </div>
+                </div>
+            </div>
+        
+            <!--js file-->
+            <script src="jquery-3.6.1.min.js"></script>
+            <script src="index.js"></script>
+        </body>
+        
+</html>
+

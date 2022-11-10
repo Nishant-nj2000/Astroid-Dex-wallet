@@ -1,0 +1,41 @@
+<html style="height:600px;width:357px;overflow:hidden;">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link  rel="stylesheet" href="style.css">
+        <!-- CSS only-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body style="background: #000;">
+        <div class="token_title">
+            <a href="dashboard.html"><img src="img/5_Back.svg" alt="back arrow"></a>
+            <p>Add New Token</p>
+            <hr>
+        </div>
+        <div>
+           <form class="token_form">
+                <input list="networks" type="text" id="network" placeholder="Select Network"  ><br>
+                <!-- <datalist id="networks">
+                    <option value="Chrome">
+                    <option value="Firefox">
+                    <option value="Internet Explorer">
+                    <option value="Opera">
+                    <option value="Safari">
+                    <option value="Microsoft Edge">
+                  </datalist> -->
+                <input type="text" id="address"  placeholder="Contract Address" ><br>
+                <input type="text" id="name"  placeholder="Token Name" ><br>
+                <input type="text" id="symbol"  placeholder="Token Ticker/ Symbol" ><br>
+                <input type="text" id="decimal"  placeholder="Number of Decimal Points" ><br>
+                <a href="custom_token.html">How to add custom token</a>
+                <a href="login.html" class="add_btn"><button>SAVE</button></a>
+                
+            </form>
+        </div>
+
+    <!--js file-->
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="index.js"></script>
+        
+    </body>
+    
+</html>
